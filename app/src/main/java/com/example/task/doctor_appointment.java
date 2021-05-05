@@ -18,6 +18,9 @@ public class doctor_appointment extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),doctor_profile.class);
+//                cardView.setCardBackgroundColor();
+//                int color =cardView.getContext().getResources().getColor(R.color.black);
+//                cardView.setCardBackgroundColor(color);
                 startActivity(intent);
             }
         });
